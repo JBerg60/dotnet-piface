@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "blink", "examples\blink\blink.csproj", "{483EA06B-6380-4FF6-8A91-7DA61632B386}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{30B29A75-3819-417F-B15A-033E86A38DD1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "piface.digitalio", "piface.digitalio\piface.digitalio.csproj", "{A34535BA-F4D3-49BA-9F89-60310559C43B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "piface.common", "piface.common\piface.common.csproj", "{44423FFF-0236-4541-92D5-BF180A76EA09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1E9B2031-F12F-4C32-985B-49BEC3A9F1A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ganymedes.devices", "ganymedes.devices\ganymedes.devices.csproj", "{68E3DF1A-3DFC-49A3-B30E-674161BB2A3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{483EA06B-6380-4FF6-8A91-7DA61632B386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483EA06B-6380-4FF6-8A91-7DA61632B386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483EA06B-6380-4FF6-8A91-7DA61632B386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483EA06B-6380-4FF6-8A91-7DA61632B386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A34535BA-F4D3-49BA-9F89-60310559C43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A34535BA-F4D3-49BA-9F89-60310559C43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A34535BA-F4D3-49BA-9F89-60310559C43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A34535BA-F4D3-49BA-9F89-60310559C43B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44423FFF-0236-4541-92D5-BF180A76EA09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44423FFF-0236-4541-92D5-BF180A76EA09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44423FFF-0236-4541-92D5-BF180A76EA09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44423FFF-0236-4541-92D5-BF180A76EA09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E3DF1A-3DFC-49A3-B30E-674161BB2A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E3DF1A-3DFC-49A3-B30E-674161BB2A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E3DF1A-3DFC-49A3-B30E-674161BB2A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E3DF1A-3DFC-49A3-B30E-674161BB2A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{483EA06B-6380-4FF6-8A91-7DA61632B386} = {30B29A75-3819-417F-B15A-033E86A38DD1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C156467E-FBFC-4A72-92E7-059AA900DBAC}
+	EndGlobalSection
+EndGlobal
